@@ -1,10 +1,13 @@
 import React,{useState, useEffect , useRef} from 'react'
 import Catpic from "./cat.png"
-import { TimelineLite, Power3} from 'gsap'
+import { gsap, Power3 } from 'gsap'
 import { CSSPlugin } from 'gsap/CSSPlugin'
 
 
+// Force CSSPlugin to not get dropped during build
 gsap.registerPlugin(CSSPlugin)
+
+
 
 const axios = require('axios');
 
@@ -13,7 +16,7 @@ const Catfact = (update) => {
     const [fact, setFact] = useState('')
     let app = useRef(null)
 
-    let tl = new TimelineLite()
+    var tl = gsap.timeline();
     useEffect(() => {
         axios.get("https://cat-fact.herokuapp.com/facts/random").then(function (response) {
             setFact(response.data.text)
