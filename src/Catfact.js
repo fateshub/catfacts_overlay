@@ -1,6 +1,11 @@
 import React,{useState, useEffect , useRef} from 'react'
 import Catpic from "./cat.png"
 import { TimelineLite, Power3} from 'gsap'
+import { CSSPlugin } from 'gsap/CSSPlugin'
+
+
+gsap.registerPlugin(CSSPlugin)
+
 const axios = require('axios');
 
 
