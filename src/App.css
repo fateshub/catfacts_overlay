@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+
 .App {
   text-align: center;
 }
@@ -5,9 +8,11 @@ body{
   margin: 0;
   padding: 0;
   background-color: transparent;
+  font-family: 'Londrina Solid', cursive;
+  color: #071e3d;
 }
 .fact{
- background-color: chocolate;
+ background-color: #ffcdab;
  margin: 10px;
 border-radius: 50px;
 padding: 10px;
@@ -24,7 +29,7 @@ width: fit-content;
 }
 
 .fact-img{
-  background-color: cornflowerblue;
+  background-color: #ffa45c;
   flex-shrink: 3;
   margin: 10px;
   border-radius: 50px;
