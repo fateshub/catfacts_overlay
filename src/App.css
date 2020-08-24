@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
