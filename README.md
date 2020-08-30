@@ -1,3 +1,6 @@
+# Currently https://cat-fact.herokuapp.com/ is down check this link to see if it is up 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Cats fact Overlay , That uses "Cat Facts!" REST API  from https://cat-fact.herokuapp.com/#/ 
